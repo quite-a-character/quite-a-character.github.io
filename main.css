@@ -1,0 +1,281 @@
+html {
+    margin: auto;
+    padding: 0;
+    background-color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    height: 100%;
+}
+header {
+    color: white;
+    font-family: 'Anton';
+    font-size: 1.5em;
+    position: fixed;
+    top: 0%;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    opacity: 100%;
+    text-align: center;
+    z-index: +1;
+}
+.home {
+    position: relative;
+}
+.cover-image {
+    height: 100%;
+    width: auto;
+    background-image: url(Images/DSCF4259-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-bottom: thick solid white;
+}
+.CPD-logo {
+    position: absolute;
+    height: 10vw;
+    width: 10vw;
+    bottom: 10px;
+    right: 10px;
+    background-image: url(Images/Revalidation-logo-FINAL-txtrght.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ics-logo {
+    position: absolute;
+    height: 10vw;
+    width: 30vw;
+    bottom: 10px;
+    right: 35vw;
+    background-image:url(Images/ics_logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.University-logo {
+    position: absolute;
+    height: 10vw;
+    width: 30vw;
+    bottom: 10px;
+    left: 10px;
+    background-image: url(Images/University%20Logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.neuro-image {
+    height: 100%;
+    position: relative;
+    background-image: url(Images/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.lmi-picture{
+    position: relative;
+    background-image: url(Images/Liverpool_Medical_Institute.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 45vw;
+    height: 20vw;
+      -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+    page-break-inside: avoid; /* Firefox */
+    break-inside: avoid; /* IE 10+ */
+        
+}
+.center-image {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+.center-subimage {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+.large-text {
+    font-family: 'Anton', sans-serif;
+    width: 100%;
+    font-size: 6vw;   
+    color: white;
+    text-align: center;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color :black; 
+}
+.large-subtext {
+    font-family: 'Anton', sans-serif;
+    
+    width: 100%;
+    font-size: 3vw;   
+    color: white;
+    text-align: center;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color :black; 
+}
+a {
+    color: white;
+    font-weight: 200;
+}
+.header-table {
+    width: 100%;
+}
+p {
+    font-family: 'Anton';
+    -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+    page-break-inside: avoid; /* Firefox */
+    break-inside: avoid; /* IE 10+ */
+}
+.floral-break{
+    background-color: floralwhite;
+}
+.section-title {
+    vertical-align: top;
+    font-size: 3vw;
+    font-weight: 200;
+    text-align: center;
+    font-family: 'Anton';
+    background-color: floralwhite;
+    padding: 0;
+    margin: auto;
+}
+.three-column-section-body {
+    background-color: floralwhite;
+    text-align: center;
+    font-family: 'Anton';
+    font-size: 1em;
+    vertical-align: top;
+    border-bottom:solid thick black;
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
+.two-column-section-body {
+    background-color: floralwhite;
+    text-align: center;
+    font-family: 'Anton';
+    font-size: 1em;
+    vertical-align: top;
+     border-bottom:solid thick black;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    
+}
+.one-column-section-body {
+    background-color: floralwhite;
+    text-align: center;
+    font-family: 'Anton';
+    font-size: 1em;
+    vertical-align: top;
+}
+h3 {
+    text-decoration: underline;
+    font-size: 2em;
+}
+iframe {
+    border: 1px black;
+}
+.anchor{
+  display: block;
+  height: 50px; /*same height as header*/
+  margin-top: -50px; /*same height as header*/
+  visibility: hidden;
+}
+.body-link{
+    color: black;
+    font-weight: 200;
+}
+.neuro-table {
+    background-color: black;
+    text-align: left;
+    font-family: 'Anton';
+    width: 100%;
+    font-size: 1.5em;
+    color: white;
+    
+}
+.table-header {
+    font-size: 2em;
+    text-align: center;
+}
+.table-header-right{
+     font-size: 2em;
+    text-align: left;
+}
+.time-cell {
+    text-align: center;
+}
+.dropdown-content {
+    display: none;
+    min-width: 20%;
+    background-color: black;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    align-content: center;
+}
+.dropdown-content a {
+    font-family: 'Anton';
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;    
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.non-dropdown-content {
+    display: none;
+    min-width: 33%;
+    background-color: black;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    align-content: center;
+}
+.non-dropdown-content a {
+    font-family: 'Anton';
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.non-dropdown:hover .non-dropdown-content {
+    display: block;
+}
+.coming-soon-cover-image {
+    height: 100%;
+    width: auto;
+    background-image: url(Images/Clock%20picture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-bottom: thick solid white;
+}
+.micro-image {
+    height: 100%;
+    width: auto;
+    background-image: url(Images/Bacterial_lawn_01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-bottom: thick solid white;
+}
+.haem-image {
+     height: 100%;
+    width: auto;
+    background-image: url(Images/Iron_deficiency_anemia_blood_film.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-bottom: thick solid white;  
+}
